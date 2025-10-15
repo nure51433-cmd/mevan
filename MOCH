@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya - [EVAN]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Halo, Saya MUHAMMAD EVAN NUR FADILAH</h1>
+        <p>Seorang Pelajar SMK NU 1 BABAT yang bersemangat di bidang TEKNIK KOMPUTER JARINGAN.</p>
+    </header>
+
+    <div class="container">
+        <section class="profil">
+            <img src="c:\Users\user\Pictures\WhatsApp Image 2025-05-18 at 13.21.24_c5aed85e.jpg" width="200" height="200" alt="Foto Profil M EVAN NUR F" class="foto-profil">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah lulusan Sekolah SMP Dipba dengan pengalaman [1] tahun di bidang Teknik Komputer Dan Jaringan. Saya suka Futsal dan senang mempelajari hal baru seperti Berenang. Saya percaya bahwa Filosofi Hidup Singkat Anda.</p>
+        </section>
+
+        <section class="keahlian">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>HTML & CSS Dasar</li>
+                <li>Kemampuan menerima bola dengan mulus dari berbagai arah (menggunakan sol sepatu, kaki bagian dalam/luar) dan langsung menyiapkannya untuk langkah berikutnya.</li>
+                <li>Kemampuan menyampaikan informasi di depan banyak orang secara menarik, meyakinkan, dan profesional.</li>
+                <li>Keahlian dalam menulis, menguji, dan memelihara kode program.</li>
+            </ul>
+        </section>
+
+        <section class="kontak">
+            <h2>Hubungi Saya</h2>
+            <p>
+                Email: <a href="nure51433@gmail.com">nure51433@gmail.com</a> <br>
+                Instagram: <a href="[Link LinkedIn Anda]" target="_blank">Profil LinkedIn</a> <br>
+                GitHub: <a href="[Link GitHub Anda]" target="_blank">Akun GitHub</a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 [evan]. Dibuat dengan semangat.</p>
+    </footer>
+
+</body>
+</html>
+<style class="css">
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    .header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .profil, .keahlian, .kontak {
+        background: white;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .foto-profil {
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    h2 {
+        color: #4CAF50;
+    }
+    ul {
+        list-style-type: square;
+    }
+    a {
+        color: #4CAF50;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #333;
+        color: white;
+        margin-top: 20px;
+    }
+
+</style>
